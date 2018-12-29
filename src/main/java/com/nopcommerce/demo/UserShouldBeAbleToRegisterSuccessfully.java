@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class UserShouldBeAbleToRegisterSuccessfully {
     protected static WebDriver driver;
 
+
     @BeforeMethod
     public void openBrowser() {
 
