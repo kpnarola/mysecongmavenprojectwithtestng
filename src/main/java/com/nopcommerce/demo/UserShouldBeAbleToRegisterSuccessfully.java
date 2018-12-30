@@ -32,7 +32,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         driver = new ChromeDriver();
 
         // ImplicityWait for Driver
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
         //Maximising Browser
         driver.manage().window().fullscreen();

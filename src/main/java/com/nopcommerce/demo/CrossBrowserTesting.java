@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Scanner;
 
@@ -15,6 +16,7 @@ public class CrossBrowserTesting {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter \n1.IE\n2.Chrome\n3.Firefox" +"\n"+"Please Enter your choice");
         String webDriver = sc.nextLine();
+
         //Setting property for ie driver
         if (webDriver.equalsIgnoreCase("IE")) {
             //giving path for ie driver
@@ -25,14 +27,15 @@ public class CrossBrowserTesting {
             //Closing website
             driver.quit();
         //Setting property for Chrome Driver
-        } else if (webDriver.equalsIgnoreCase("ChromeDriver")) {
+        } else if (webDriver.equalsIgnoreCase("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "src\\BrowserDriver\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.get("https://demo.nopcommerce.com/");
             driver.quit();
 
         } else if (webDriver.equalsIgnoreCase("Firefox")) {
-            System.setProperty("webdriver.gecho.driver", "src\\BrowserDriver\\geckodriver.exe");
+//
+            System.setProperty("webdriver.gecko.driver", "src\\BrowserDriver\\geckodriver.exe");
             driver = new FirefoxDriver();
             driver.get("https://demo.nopcommerce.com/");
             driver.quit();
