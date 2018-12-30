@@ -3,8 +3,8 @@ package com.nopcommerce.demo;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Scanner;
 
@@ -24,6 +24,7 @@ public class CrossBrowserTesting {
             driver = new InternetExplorerDriver();
             //opening website
             driver.get("https://demo.nopcommerce.com/");
+            driver.manage().window().fullscreen();
             //Closing website
             driver.quit();
         //Setting property for Chrome Driver
@@ -31,13 +32,18 @@ public class CrossBrowserTesting {
             System.setProperty("webdriver.chrome.driver", "src\\BrowserDriver\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.get("https://demo.nopcommerce.com/");
+            driver.manage().window().fullscreen();
             driver.quit();
 
         } else if (webDriver.equalsIgnoreCase("Firefox")) {
-//
+
+            FirefoxOptions options = new FirefoxOptions();
+            //options.setBinary("C:\\soft\\FirefoxPortable\\FirefoxPortable.exe");
+
             System.setProperty("webdriver.gecko.driver", "src\\BrowserDriver\\geckodriver.exe");
             driver = new FirefoxDriver();
             driver.get("https://demo.nopcommerce.com/");
+            driver.manage().window().fullscreen();
             driver.quit();
 
         } else {

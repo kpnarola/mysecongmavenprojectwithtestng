@@ -48,7 +48,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     }
 
     //Reusable method for click
-    public void clickOnElelment(By by) {
+    public void clickOnElement(By by) {
         driver.findElement(by).click();
     }
 
@@ -61,10 +61,10 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     public void registration() {
 
         //Click on Register Button
-        clickOnElelment(By.linkText("Register"));
+        clickOnElement(By.linkText("Register"));
 
         //Click on gender
-        clickOnElelment(By.id("gender-male"));
+        clickOnElement(By.id("gender-male"));
 
         //Click on First Name
         enterText(By.id("FirstName"), "Kp");
@@ -106,7 +106,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         enterText(By.id("Company"), "Yogiraj");
 
         //For Options - Click on Newsletters box
-        clickOnElelment(By.id("Newsletter"));
+        clickOnElement(By.id("Newsletter"));
 
         //For Your Password Field - password for registration
 
@@ -120,7 +120,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         enterText(By.id("ConfirmPassword"), password);
 
         //Click on Registration Button
-        clickOnElelment(By.id("register-button"));
+        clickOnElement(By.id("register-button"));
     }
 
     @Test
@@ -149,22 +149,22 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         //registering an account using reusable registration method
         registration();
         //click on continue button
-        clickOnElelment(By.name("register-continue"));
+        clickOnElement(By.name("register-continue"));
 
         //Selecting Product Apple MavBook Pro 13-inch
-        clickOnElelment(By.linkText("Apple MacBook Pro 13-inch"));
+        clickOnElement(By.linkText("Apple MacBook Pro 13-inch"));
 
         //Clicking on Email a Friend button to send Product detail with Email
-        clickOnElelment(By.xpath("//input[@value='Email a friend']"));
+        clickOnElement(By.xpath("//input[@value='Email a friend']"));
 
         //Entering Friends Email Address
         enterText(By.id("FriendEmail"), "pkpatel@yahoo.com");
 
         //Entering Personal Message
-        enterText(By.id("PersonalMessage"), "It is very nice have a look");
+        enterText(By.id("PersonalMessage"), "It is very nice product have a look");
 
         //Clicking on send email button
-        clickOnElelment(By.name("send-email"));
+        clickOnElement(By.name("send-email"));
 
         //Declaring variable for expected result
         String expectedSendEmailSuccessfullyMessage = "Your message has been sent.";
@@ -181,16 +181,16 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     public void toVerifyUnRegisteredUserShouldNotBeAbleToSendEmail() {
 
         //selecting Computer Field from the website
-        clickOnElelment(By.linkText("Computers"));
+        clickOnElement(By.linkText("Computers"));
 
         //Selecting Desktop form category list of computer
-        clickOnElelment(By.linkText("Desktops"));
+        clickOnElement(By.linkText("Desktops"));
 
         //Selecting Product
-        clickOnElelment(By.linkText("Lenovo IdeaCentre 600 All-in-One PC"));
+        clickOnElement(By.linkText("Lenovo IdeaCentre 600 All-in-One PC"));
 
         //Clicking on email a friend button from the selected product
-        clickOnElelment(By.xpath("//input[@value='Email a friend']"));
+        clickOnElement(By.xpath("//input[@value='Email a friend']"));
 
         //Entering friend's email address
         enterText(By.id("FriendEmail"), "pnpatel@gmail.com");
@@ -202,7 +202,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         enterText(By.id("PersonalMessage"), "I wanted to show you this nice product");
 
         //Clicking on send email button
-        clickOnElelment(By.name("send-email"));
+        clickOnElement(By.name("send-email"));
 
         //Declaring variable for expected result
         String expectedErrorMessage = "Only registered customers can use email a friend feature";
@@ -220,22 +220,22 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         registration();
 
         //click on continue button for continuing other page for selecting product
-        clickOnElelment(By.name("register-continue"));
+        clickOnElement(By.name("register-continue"));
 
         //Selecting Product
-        clickOnElelment(By.linkText("Build your own computer"));
+        clickOnElement(By.linkText("Build your own computer"));
 
         //Selecting Hdd button in product Description
-        clickOnElelment(By.id("product_attribute_3_6"));
+        clickOnElement(By.id("product_attribute_3_6"));
 
         //Clicking on add to cart button
-        clickOnElelment(By.id("add-to-cart-button-1"));
+        clickOnElement(By.id("add-to-cart-button-1"));
 
         //Clicking on shopping cart button
-        clickOnElelment(By.xpath("//span[@class='cart-label']"));
+        clickOnElement(By.xpath("//span[@class='cart-label']"));
 
         //Clicking on Checkout button
-        clickOnElelment(By.id("checkout"));
+        clickOnElement(By.id("checkout"));
 
         //Declaring variable for expected result
         String expectedErrorMessage = "Please accept the terms of service before the next step.";
@@ -248,27 +248,27 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     }
 
     @Test
-    public void toVerifyRegisteredusershouldbeabletobuyanysingleproductsuccessfully() {
+    public void toVerifyRegisteredUserShouldBeAbleToBuyAnySingleProductSuccessfully() {
         //Registering account by using re usable method for Registration
         registration();
 
         //click on continue button
-        clickOnElelment(By.name("register-continue"));
+        clickOnElement(By.name("register-continue"));
 
         //Selecting Product
-        clickOnElelment(By.linkText("HTC One M8 Android L 5.0 Lollipop"));
+        clickOnElement(By.linkText("HTC One M8 Android L 5.0 Lollipop"));
 
         //Clicking on add to cart button
-        clickOnElelment(By.id("add-to-cart-button-18"));
+        clickOnElement(By.id("add-to-cart-button-18"));
 
         //Clicking on shopping cart button
-        clickOnElelment(By.xpath("//a[contains(text(),'shopping cart')]"));
+        clickOnElement(By.xpath("//a[contains(text(),'shopping cart')]"));
 
         //Clicking on terms of service
-        clickOnElelment(By.id("termsofservice"));
+        clickOnElement(By.id("termsofservice"));
 
         //Clicking on Checkout button
-        clickOnElelment(By.id("checkout"));
+        clickOnElement(By.id("checkout"));
 
         //Selecting country for billing adress
         Select country = new Select(driver.findElement(By.id("BillingNewAddress_CountryId")));
@@ -293,23 +293,23 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         enterText(By.id("BillingNewAddress_FaxNumber"), "02073638352");
 
         //Clicking on continue button for shipping method
-        clickOnElelment(By.xpath("//input[@onclick='Billing.save()']"));
+        clickOnElement(By.xpath("//input[@onclick='Billing.save()']"));
 
         //Step - 3 Shipping Method
 
         //Clicking on first option Ground from Shipping method
-        clickOnElelment(By.id("shippingoption_0"));
+        clickOnElement(By.id("shippingoption_0"));
 
         //Clicking on continue button for Payment Method
-        clickOnElelment(By.xpath("//input[@onclick='ShippingMethod.save()']"));
+        clickOnElement(By.xpath("//input[@onclick='ShippingMethod.save()']"));
 
         //Step-4 Payment method
 
         //Click on Credit Card option
-        clickOnElelment(By.id("paymentmethod_1"));
+        clickOnElement(By.id("paymentmethod_1"));
 
         //Click on continue button for payment information
-        clickOnElelment(By.xpath("//input[@onclick='PaymentMethod.save()']"));
+        clickOnElement(By.xpath("//input[@onclick='PaymentMethod.save()']"));
 
         //Step 5- Payment Information
 
@@ -331,12 +331,12 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         enterText(By.id("CardCode"), "737");
 
         //Clicking on Continue button for order confirmation
-        clickOnElelment(By.xpath("//input[@onclick=\"PaymentInfo.save()\"]"));
+        clickOnElement(By.xpath("//input[@onclick=\"PaymentInfo.save()\"]"));
 
         //Step 6-Confirm Order
 
         //Clicking on Confirm Order button
-        clickOnElelment(By.xpath("//input[@onclick=\"ConfirmOrder.save()\"]"));
+        clickOnElement(By.xpath("//input[@onclick=\"ConfirmOrder.save()\"]"));
 
         //Declaring String for expected result
         String expectedResult = "Your order has been successfully processed!";
@@ -351,10 +351,10 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     @Test
     public void toVerifyUserShouldBeAbleToSortByPriceHighToLow() {
         //Clicking on Apparel
-        clickOnElelment(By.linkText("Apparel"));
+        clickOnElement(By.linkText("Apparel"));
 
         //Clicking on Clothing
-        clickOnElelment(By.xpath("//img[@alt='Picture for category Clothing']"));
+        clickOnElement(By.xpath("//img[@alt='Picture for category Clothing']"));
 
         //Selecting Product
         Select sortByHighToLow = new Select(driver.findElement(By.id("products-orderby")));
@@ -400,10 +400,10 @@ public class UserShouldBeAbleToRegisterSuccessfully {
     @Test
     public void toVerifyUserShouldBePricesSortingLowToHigh() {
         //Clicking on Apparel
-        clickOnElelment(By.linkText("Apparel"));
+        clickOnElement(By.linkText("Apparel"));
 
         //Clicking on Clothing
-        clickOnElelment(By.xpath("//img[@alt='Picture for category Clothing']"));
+        clickOnElement(By.xpath("//img[@alt='Picture for category Clothing']"));
 
         //Selecting Product From Index and filtering the price High to Low
         Select sortByHighToLow = new Select(driver.findElement(By.id("products-orderby")));
