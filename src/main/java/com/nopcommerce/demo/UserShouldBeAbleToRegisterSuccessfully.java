@@ -1,5 +1,6 @@
 package com.nopcommerce.demo;
 
+import javafx.scene.layout.Priority;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -123,7 +124,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         clickOnElement(By.id("register-button"));
     }
 
-    @Test
+    @Test(priority = 0)
     public void userShouldBeAbleToRegisterSuccessfully() {
 
         //registering an account using reusable registration method
@@ -140,7 +141,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
 
     }
 
-    @Test
+    @Test(priority = 1)
     public void registeredUserShouldBeAbleToSendEmailWithProductSuccessfully() {
          /* /*https://demo.nopcommerce.com/
       click on Apple MacBook Pro 13-inch - email a friend -fill up required details and click on Send Email button
@@ -176,7 +177,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
 
     }
 
-    @Test
+    @Test(priority = 5)
 //To verify only registered user can use Email a friend feature:
     public void toVerifyUnRegisteredUserShouldNotBeAbleToSendEmail() {
 
@@ -214,7 +215,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         Assert.assertEquals(expectedErrorMessage, actualErrorMessage, "Display Message is not as per expected, test is failed");
     }
 
-    @Test
+    @Test(priority = 6)
     public void toVerifyUserMustHaveToAcceptTermsAndConditionForCheckOut() {
         //Registering email account by using reusable method of registration
         registration();
@@ -247,7 +248,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         Assert.assertEquals(expectedErrorMessage, actualErrorMessage, "Display message is not as per expected, Test failed");
     }
 
-    @Test
+    @Test(priority = 2)
     public void toVerifyRegisteredUserShouldBeAbleToBuyAnySingleProductSuccessfully() {
         //Registering account by using re usable method for Registration
         registration();
@@ -348,7 +349,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         Assert.assertEquals(expectedResult, actualResult, "You are not able to buy product successfully, test failed");
     }
 
-    @Test
+    @Test(priority = 4)
     public void toVerifyUserShouldBeAbleToSortByPriceHighToLow() {
         //Clicking on Apparel
         clickOnElement(By.linkText("Apparel"));
@@ -397,7 +398,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
 
 
     //Sorting prices low to high by using *collection sorted method
-    @Test
+    @Test(priority = 5)
     public void toVerifyUserShouldBePricesSortingLowToHigh() {
         //Clicking on Apparel
         clickOnElement(By.linkText("Apparel"));
