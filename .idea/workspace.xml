@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1fdde6-bf75-43b9-bfb4-5222a8b7c20b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,9 +21,9 @@
     <session id="1346245609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -33,11 +32,13 @@
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -92,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="173" column="22" lean-forward="true" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+            <state relative-caret-position="5848">
+              <caret line="366" selection-start-line="366" selection-end-line="366" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,16 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="170">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,10 +165,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="575" />
+    <option name="y" value="65" />
+    <option name="width" value="842" />
+    <option name="height" value="544" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,7 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,11 +226,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546248784854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546274676858" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../second project testng github" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -243,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserShouldBeAbleToRegisterSuccessfully">
+  <component name="RunManager" selected="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential">
     <configuration name="CrossBrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.CrossBrow" />
       <module name="mysecongmavenprojectwithtestng" />
@@ -283,6 +286,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mysecongmavenprojectwithtestng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.ToVerifyAddminUserCanAddEmployeeSuccessfully" />
+      <option name="METHOD_NAME" value="toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserShouldBeAbleToRegisterSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mysecongmavenprojectwithtestng" />
       <extension name="coverage">
@@ -299,38 +320,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mysecongmavenprojectwithtestng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nopcommerce.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.UserShouldBeAbleToRegisterSuccessfully" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToRegisterSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully" />
-      <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" />
       <item itemvalue="Application.CrossBrowserTesting" />
       <item itemvalue="Application.CrossBrowser1" />
       <item itemvalue="Application.CrossBrow" />
+      <item itemvalue="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" />
         <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully" />
         <item itemvalue="Application.CrossBrowserTesting" />
         <item itemvalue="Application.CrossBrow" />
         <item itemvalue="Application.CrossBrowser1" />
-        <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -380,10 +383,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,9 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="5848">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -496,15 +500,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="173" column="22" lean-forward="true" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
