@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -31,7 +32,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         //Creating object for ChromeDriver
         driver = new ChromeDriver();
 
-        // ImplicityWait for Driver
+        // Implicitly Wait for Driver
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
         //Maximising Browser
@@ -41,11 +42,11 @@ public class UserShouldBeAbleToRegisterSuccessfully {
         driver.get("https://demo.nopcommerce.com/");
     }
 
-    @AfterMethod
-     //closing Browser
-    public void closeBrowser() {
-        driver.quit();
-    }
+//    @AfterMethod
+//    //closing Browser
+//    public void closeBrowser() {
+//        driver.quit();
+//    }
 
     //Reusable method for click
     public void clickOnElement(By by) {
@@ -364,7 +365,7 @@ public class UserShouldBeAbleToRegisterSuccessfully {
 
         //Taking all Product Price for List by using Xpath
         List<WebElement> price = driver.findElements(By.xpath("//div/div[2]/div[3]/div[1]/span"));
-
+        System.out.println();
         //Converting Xpath List in ArrayList for getting price
         List<String> prices = new ArrayList<>();
 
@@ -436,9 +437,38 @@ public class UserShouldBeAbleToRegisterSuccessfully {
 
     }
 
+    @Test
 
+    public void toVerifyAddToCartButtonIsPrecentInAllProductOnHomePage() {
+
+        List<WebElement> addToCartLIst = driver.findElements(By.cssSelector(".item-box .product-box-add-to-cart-button"));
+        System.out.println(addToCartLIst.size());
+        for (WebElement al : addToCartLIst) {
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertEquals(al.getAttribute("value"), "Add to cart");
+            softAssert.assertAll();
+        }
+
+
+    }
+
+    @Test
+    public void toVerifyCustomeCurrencyIsEuro() {
+        SoftAssert softAssert = new SoftAssert();
+        driver.findElement(By.id("customerCurrency")).click();
+        clickOnElement(By.linkText("Jewelry"));
+        List<WebElement> jewelryPriceList = driver.findElements(By.cssSelector(".item-box .actual-price"));
+        System.out.println(jewelryPriceList.size());
+
+        for (WebElement al : jewelryPriceList) {
+            System.out.println(al.getText().substring(0, 1));
+
+            softAssert.assertEquals("$", al.getText().substring(0, 1));
+
+        }
+        softAssert.assertAll();
+    }
 }
-
 
 
 

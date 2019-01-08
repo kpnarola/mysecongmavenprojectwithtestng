@@ -4,6 +4,7 @@
     <list default="true" id="0a1fdde6-bf75-43b9-bfb4-5222a8b7c20b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,87 +18,18 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1346245609">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="20" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Feature" value="3" />
-          <entry key="java" value="12235" />
-          <entry key="properties" value="15" />
-          <entry key="xml" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Cucumber" value="3886" />
-          <entry key="JAVA" value="12341" />
-          <entry key="Properties" value="15" />
-          <entry key="XML" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Feature" value="1" />
-          <entry key="class" value="1" />
-          <entry key="exe" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="6" />
-          <entry key="properties" value="1" />
-          <entry key="rar" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="1" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSteps.Feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5848">
-              <caret line="366" selection-start-line="366" selection-end-line="366" />
+            <state relative-caret-position="314">
+              <caret line="469" column="5" lean-forward="true" selection-start-line="455" selection-start-column="4" selection-end-line="469" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,19 +38,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/SoftAssert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="68">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/ToVerifyAddminUserCanAddEmployeeSuccessfully.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java" />
         <option value="$PROJECT_DIR$/testSteps.Feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/ToVerifyAddminUserCanAddEmployeeSuccessfully.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/SoftAssert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java" />
       </list>
     </option>
@@ -166,10 +115,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="575" />
-    <option name="y" value="65" />
-    <option name="width" value="842" />
-    <option name="height" value="544" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,16 +170,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mysecongmavenprojectwithtestng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysecongmavenprojectwithtestng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546274676858" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../second project testng github" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546956515907" />
+    <property name="last_opened_file_path" value="C:/Users/PRAKASH/IdeaProjects/nopCommerceFirstPageFactory" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -246,33 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential">
-    <configuration name="CrossBrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.CrossBrow" />
-      <module name="mysecongmavenprojectwithtestng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrossBrowser1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.CrossBrowser1" />
-      <module name="mysecongmavenprojectwithtestng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro">
     <configuration name="CrossBrowserTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.CrossBrowserTesting" />
       <module name="mysecongmavenprojectwithtestng" />
@@ -286,7 +215,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mysecongmavenprojectwithtestng" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +233,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserShouldBeAbleToRegisterSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserShouldBeAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mysecongmavenprojectwithtestng" />
       <extension name="coverage">
         <pattern>
@@ -320,20 +249,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyAddToCartButtonIsPrecentInAllProductOnHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mysecongmavenprojectwithtestng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="toVerifyAddToCartButtonIsPrecentInAllProductOnHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mysecongmavenprojectwithtestng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="toVerifyCustomeCurrencyIsEuro" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully" />
       <item itemvalue="Application.CrossBrowserTesting" />
-      <item itemvalue="Application.CrossBrowser1" />
-      <item itemvalue="Application.CrossBrow" />
       <item itemvalue="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" />
+      <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.toVerifyAddToCartButtonIsPrecentInAllProductOnHomePage" />
+      <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" />
+        <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully.toVerifyAddToCartButtonIsPrecentInAllProductOnHomePage" />
         <item itemvalue="TestNG.ToVerifyAddminUserCanAddEmployeeSuccessfully.toVerifyAdminUserShouldBeAbleToCreateEmployeeAccountWithLoginCredential" />
         <item itemvalue="TestNG.UserShouldBeAbleToRegisterSuccessfully" />
         <item itemvalue="Application.CrossBrowserTesting" />
-        <item itemvalue="Application.CrossBrow" />
-        <item itemvalue="Application.CrossBrowser1" />
       </list>
     </recent_temporary>
   </component>
@@ -351,42 +316,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyUserShouldBePricesSortingLowToHigh - 2018.12.28 at 17h 15m 30s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyUserShouldBePricesSortingLowToHigh" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 17m 46s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully - 2018.12.28 at 17h 21m 08s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 19m 57s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_userShouldBeAbleToRegisterSuccessfully - 2018.12.28 at 17h 25m 00s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 21m 29s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully - 2018.12.28 at 17h 31m 57s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 21m 49s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyRegisteredusershouldbeabletobuyanysingleproductsuccessfully - 2018.12.28 at 17h 33m 31s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyRegisteredusershouldbeabletobuyanysingleproductsuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 25m 03s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully - 2018.12.28 at 17h 37m 26s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 25m 53s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully - 2018.12.29 at 09h 16m 57s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 28m 38s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_userShouldBeAbleToRegisterSuccessfully - 2018.12.29 at 10h 58m 45s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 30m 27s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_userShouldBeAbleToRegisterSuccessfully - 2018.12.29 at 11h 02m 40s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully.userShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 12h 32m 11s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserShouldBeAbleToRegisterSuccessfully - 2018.12.31 at 09h 32m 47s.xml">
-      <configuration name="UserShouldBeAbleToRegisterSuccessfully" configurationId="TestNG" />
+    <history-entry file="UserShouldBeAbleToRegisterSuccessfully_toVerifyCustomeCurrencyIsEuro - 2019.01.08 at 13h 26m 14s.xml">
+      <configuration name="UserShouldBeAbleToRegisterSuccessfully.toVerifyCustomeCurrencyIsEuro" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3251634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,7 +368,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3267974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,6 +377,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
@@ -441,9 +407,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/javahomework.rar">
@@ -481,34 +444,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/TestSteps.java" />
-    <entry file="file://$PROJECT_DIR$/testSteps.Feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+        <state relative-caret-position="530">
+          <caret line="39" column="17" selection-start-line="21" selection-start-column="2" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
+    <entry file="file://$PROJECT_DIR$/testSteps.Feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5848">
-          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        <state relative-caret-position="68">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/ToVerifyAddminUserCanAddEmployeeSuccessfully.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="884">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/CrossBrowserTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/SoftAssert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/UserShouldBeAbleToRegisterSuccessfully.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="469" column="5" lean-forward="true" selection-start-line="455" selection-start-column="4" selection-end-line="469" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
